@@ -286,7 +286,7 @@ https://github.com/user-attachments/assets/7e3ac1b8-cdb7-4e78-b4d8-aeabb02f6307
 *   **문제**: 믹사모(Mixamo)에서 가져온 범용 애니메이션을 메타휴먼 스켈레톤에 적용했을 때, 어깨와 손가락 마디가 비정상적으로 뒤틀리거나 본(Bone)의 위치가 어긋나는 현상이 발생했습니다
 *   **해결**: 메타휴먼의 복잡한 본 구조와 믹사모의 표준 인간형 리깅 데이터 간의 기본 포즈(T-Pose vs A-Pose) 및 본 계층 구조 차이로 인한 문제임을 확인했습니다. 언리얼 엔진의 IK Rig와 IK Retargeter를 활용하여 소스(Mixamo)와 타겟(MetaHuman) 간의 본 체인을 수동으로 매핑했습니다. 특히 Full Body IK 설정을 통해 관절의 가동 범위를 제한하고, 이에도 에러가 발생할 시에는 리타겟 포즈를 세밀하게 조정하여 직접 구현했습니다.
 
-### 이슈 2: 특정 행동(RPC)이 Host에게만 작동
+### 이슈 2: 루멘(Lumen) 환경 하의 그림자 노이즈 및 고스팅
 *   **문제**: 모니터의 강한 광원을 주 광원으로 사용할 때, 어두운 구석이나 캐릭터의 그림자 경계면에서 지저분한 노이즈와 잔상이 남는 고스팅(Ghosting) 현상이 나타났습니다.
 *   **해결**: Post Process Volume 내에서 Lumen Scene Detail과 Final Gather Quality 값을 상향 조정하고, 강한 주 광원에는 Virtual Shadow Maps를 활성화하여 그림자의 경계를 날카롭고 선명하게 개선했습니다.
 
