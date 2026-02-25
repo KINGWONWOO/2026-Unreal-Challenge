@@ -18,7 +18,7 @@
 <details>
    <summary> FastCampus 수료증 확인 </summary>
    
-   ![Verification](Doc/Images/Fastcampus_cinematic.jpg)
+   ![FCVerification](Doc/Images/Fastcampus_cinematic.png)
    
 </details>
 
