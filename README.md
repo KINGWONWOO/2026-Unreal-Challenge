@@ -8,7 +8,9 @@
 > > *제작을 위해 Udemy 강의인 "Unreal Engine 5 - Create Professional Cinematics & Trailers!"를 학습했습니다. 교육 수료증은 아래의 탭에서 확인 가능합니다.*
 <details>
    <summary> 수료증 확인 </summary>
+   
    ![Verification](Doc/Images/Udemy_Cinematic.jpg)
+   
 </details>
 
 ---
@@ -31,7 +33,7 @@
 
 > *아래 이미지를 클릭하면 플레이 영상을 시청할 수 있습니다. (YouTube)*
 
-[![Gameplay Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=cAk8YH-7p0g)
+[![Scene 01](Doc/Images/Scene01.png)](https://www.youtube.com/watch?v=cAk8YH-7p0g)
 
 
 
