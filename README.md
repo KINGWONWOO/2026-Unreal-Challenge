@@ -1,4 +1,4 @@
-# 🎬 2026 Unreal Challenge – Cinematic Project
+# 🎬 2025 Unreal Challenge – Cinematic Project
 
 ![Project Logo](Doc/Images/UnrealChLogo.png)
 
@@ -13,7 +13,7 @@
 *   **프로젝트명:** Two Side of Light, Two Side of Shadow.
 *   **개발 인원:** 1인 개발 (원우)
 *   **역할:** 메타휴먼, 모델링, 리깅, 애니메이션, 레벨 디자인, 사운드, 시퀀스 및 렌더링 등 **프로젝트 전 과정 단독 수행**
-*   **개발 기간:** 2025.12 ~ 2026.01
+*   **개발 기간:** 2025.12.23. ~ 2025.12.29.
 *   **핵심 목표:**
     *   Sequencer 기반 시네마틱 파이프라인 이해
     *   카메라 연출 및 라이팅 설계 능력 강화
